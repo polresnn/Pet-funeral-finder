@@ -1,0 +1,224 @@
+/* index.html */
+
+
+body{
+    color: rgb(0, 0, 0);
+    margin: auto;
+    background-color:#ffffff;
+}
+.Everything{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.tittle{
+    position: relative;
+}
+/* Nav bar, tittle */
+nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #000000;
+}
+nav .logo-img{
+    width: 200px;
+    height: 150px;
+    margin-left: 30%;
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+    font-size: 28px;
+    margin-right: 12%;
+}
+nav ul li{
+    display: inline-block;
+    margin: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* h2 description */
+.description{
+    padding-top: 5%;
+    font-size: 45px;
+    text-align: center;
+    color: #000000;
+}
+/* search bar */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(89, 73, 71, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 22px;
+    color: #181414;
+}
+::placeholder{
+    color: #434141;
+}
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #181414;
+    cursor: pointer;
+}
+/*  Map */
+#map{
+    height: 450px;
+    width: 95%;
+    margin: 3%;
+    display: flex;    
+}
+/* info table */
+.business_list h3{
+    font-size: 45px;
+    text-align: center;
+}
+.business_individualNames{
+    margin: 5%;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(244, 86, 23);
+    background-color: #f4f0f0d8;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding: 2rem;
+}
+
+
+
+/* reviews & donate */
+section{
+    
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #000000;
+    cursor: pointer;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question h3{
+    font-size: 1.8rem;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+.answer p{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+.faq.active .answer{
+    max-height: 300px;
+}
+.faq.active svg{
+    transform: rotate(180deg);
+}
+svg{
+    transition: transform 0.5s ease-in;
+}
+.lastpart{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.lastpart p{
+    padding-bottom: 2%;
+    text-align: justify;
+    text-align: left;
+    font-size: 22px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+/*  Footer, links, legal rights */
+footer{
+    background-color: #434141fd;
+    text-align: center;
+    position:static;
+    top: 100%;
+    font-size: 12px;
+    color: #a3a3a3;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-top: 10%;
+    
+}
+.endtop{
+    text-align: center;
+    display: inline;
+    
+    font-size: 22px;
+}
+.inline-text{
+    margin-right: 25px;
+    list-style: none;
+}
+.inline-text a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/*  Aboutus.html */
+.aboutus{
+    text-align: center;
+    padding-top: 3%;
+}
+.aboutus h1{
+    padding-bottom: 2%;
+}
+.aboutus p{
+    padding-bottom: 2%;
+    text-align: justify;
+    text-align: center;
+    font-size: 22px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* Blogs */
+.Blog{
+    padding-bottom: 2%;
+    text-align: justify;
+    text-align: center;
+    font-size: 22px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
